@@ -1,0 +1,93 @@
+ /* extending cycle slideshow */
+.cycle-slideshow .cycle-prev,
+                .cycle-next  {
+       position:absolute;
+       top:0; bottom:0;
+       z-index: 200; 
+       height:100%;
+       text-align:center;
+       width:15%;
+       background-color:rgba(0,0,0,0.2);
+       opacity:0.4;
+   }
+ 
+
+.cycle-slideshow div.metro {
+    height:100%;   
+    font-size:2em;
+}
+   .cycle-slideshow i {
+       position:absolute;
+        color:#fff;
+        top:40%;
+   }
+    .cycle-slideshow .glyphicon {
+       top:50%;
+       color:#fff;
+   }
+   
+   .cycle-slideshow .cycle-prev {
+       left:0;
+    }
+   .cycle-slideshow .cycle-next {
+       right:0;
+    }
+   
+   
+    .cycle-slideshow .cycle-prev:hover,
+                     .cycle-next:hover {
+        opacity:1;
+   }
+   
+.cycle-slideshow img {
+    position: static; 
+   width:100%;
+    z-index: 100; 
+}
+/* and for list based items */
+.cycle-slideshow li {
+    position: static; 
+   width:100%;
+    z-index: 100;    
+}
+
+
+/* overlay */
+.cycle-overlay { 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 600;
+    background: rgba(0,0,0,0.7); 
+    color: #fff; 
+    padding: 5px; 
+}
+
+.cycle-overlay h4 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/* solve tick at start where all images show not in the right size
+from http://jquery.malsup.com/cycle2/faq/ 
+
+.cycle-slideshow img { display: none }
+.cycle-slideshow img.first { display: block }
+*/
+
+
+
+
+@media(min-width:768px) {
+    .cycle-slideshow.half-width {
+        width:50%;
+
+    }
+}
+
+@media(max-width:767px) {
+    .cycle-slideshow.half-width {
+        width:100%;
+
+    }
+}
