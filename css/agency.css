@@ -4,10 +4,25 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+body {
+    background-color: #f7f7f7;
+}
+
+.bg-light-yellow {
+    background-color: #FFFDE7;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
 .bg-red {
     /*border-bottom: medium solid #8E0000;*/
-    border-left: 30px solid #8E0000;
-    
+    border-left: 30px solid #8E0000; 
 }
 
 .bg-green {
@@ -24,25 +39,23 @@
 
 .bg-dark-gray {
     /*border-bottom: medium solid #8E8E9E;*/
-    border-left: 30px solid #8E8E9E;
-     
+    border-left: 30px solid #8E8E9E;  
 }
 
 blockquote {
-  background: #ececec;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px 0px;
-  padding: 0.5em 10px;
-  text-align: left;
-  font-style: italic;
+    background: #FFF9C4;
+    border-left: 5px solid #F57F17;
+    border-radius: 3px;
+    margin: 1.5em 10px 0px;
+    padding: 0.5em 10px;
+    text-align: left;
+    font-style: italic;
+    font-size: 1em;
 }
 blockquote:before {
-  color: #ccc;
- /* content: open-quote;
-  font-size: 4em;
-  vertical-align: -0.4em; */
-  line-height: 0.1em;
-  margin-right: 0.25em;
+    color: #ccc;
+    line-height: 0.1em;
+    margin-right: 0.25em;
 }
 blockquote::first-letter {
     color:#ccc;
@@ -54,6 +67,7 @@ blockquote::first-letter {
     margin: 0.5em 10px 1.5em;
     text-transform: none;
     text-align: right;
+    color: #ccc;
 }
 
 body {
@@ -112,13 +126,7 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background-color: #f7f7f7;
-}
 
-.bg-darkest-gray {
-    background-color: #222;
-}
 
 .btn-primary {
     border-color: #fed136;
@@ -223,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+  /*  background-color: #222; */
 }
 
 .navbar-default .navbar-brand {
@@ -305,7 +313,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #37474F;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -314,10 +322,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+   /* text-align: center;*/
     color: #fff;
     background-attachment: scroll;
-  background-image: url(../img/lectures/gershom.jpg);
+    background-image: url(../img/lectures/shachar-testing.jpg); 
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -351,19 +359,20 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 50px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 250px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
@@ -378,7 +387,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
