@@ -321,6 +321,15 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+header.gershom {
+    background-image: url(../img/lectures/gershom.jpg); 
+}
+
+header.shachar {
+    background-image: url(../img/lectures/shachar-testing.jpg); 
+}
+
+
 header {
    /* text-align: center;*/
     color: #fff;
