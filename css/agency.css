@@ -43,8 +43,8 @@ body {
 }
 
 blockquote {
-    background: #FFF9C4;
-    border-left: 5px solid #F57F17;
+   /* background: #FFF9C4;*/
+    border-left: 5px solid #ccc;
     border-radius: 3px;
     margin: 1.5em 10px 0px;
     padding: 0.5em 10px;
@@ -58,7 +58,7 @@ blockquote:before {
     margin-right: 0.25em;
 }
 blockquote::first-letter {
-    color:#ccc;
+    color:#F57F17;
     font-size: 200%;
     text-transform: capitalize;
 }
@@ -231,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-  /*  background-color: #222; */
+    background-color: #37474F;
 }
 
 .navbar-default .navbar-brand {
@@ -868,7 +868,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: rgba(254, 209, 54, 0.42);
 }
 
 img::selection {
